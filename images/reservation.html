@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+<body>
+    <nav>
+        <img src="/images/logo res.webp" alt="Logo" width="50" height="50">
+        <a href="index.html">Home</a>|
+        <a href="menu.html">Menu</a>|
+        <a href="about.html">About Us</a>|
+        <a href="reservation.html">Reservation</a>|
+        <a href="contact.html">Contact Us</a>
+        <img src="/images/menuicon.jpg" alt="menubar" width="50" height="50">
+    </nav>
+
+    <h1>RESERVATION</h1>
+    <img src="/images/restaurant header.avif" width="350" height="200">
+
+    <p><strong><em>Book a table in advance to enjoy a wonderful dining experience</em></strong></p>
+
+    <form action="">
+        <label for="name"><em>Name:</em></label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email"><em>Email:</em></label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone"><em>Phone:</em></label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="date"><em>Date:</em></label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="time"><em>Time:</em></label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="guests"><em>Number of Guests:</em></label>
+        <input type="number" id="guests" name="guests" min="1" max="20" required><br><br>
+
+        <textarea name="message" id="message" cols="30" rows="10" style="resize: none;"
+            placeholder="Special Request"></textarea><br><br>
+
+        <input type="submit" value="Book Now">
+    </form>
+
+</body>
+</html>
